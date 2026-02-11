@@ -4,12 +4,15 @@
   <meta charset="UTF-8">
   <title>Hold Shift to Check Multiple Checkboxes</title>
   <link rel="icon" href="https://fav.farm/🔥" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
   <style>
 
     html {
-      font-family: sans-serif;
+      font-family: "Inter";
       background: #ffc600;
     }
 
@@ -45,7 +48,7 @@
       padding: 20px;
       transition: background 0.2s;
       flex: 1;
-      font-family:'helvetica neue';
+      font-family:"Inter";
       font-size: 20px;
       font-weight: 200;
       border-left: 1px solid #D1E2FF;
@@ -96,7 +99,16 @@
     </div>
   </div>
 
-<script>
-</script>
+  <script>
+    // check if a box is selected
+    const checkboxes = document.querySelectorAll('.inbox input[type="checkbox"]');
+
+    // check if shift key held down
+
+    // when shift key is held down and another box is checked, checkbox is "checked"
+    // and additional .inbox.items in between first checked and second checked 
+    // become "checked" as well
+
+  </script>
 </body>
 </html>
